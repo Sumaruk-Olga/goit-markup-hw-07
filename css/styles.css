@@ -7,8 +7,7 @@
 
 
 
-.all-works,
-.team-list {
+.all-works {
   display: flex;
 }
 
@@ -75,30 +74,15 @@
   color: var(--auth-color);
 }
 
-.name {
-  color: var(--title-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
-}
-
-.position {
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 16px;
-}
 
 
 
 
 
-.team {
-  background-color: var(--fone-color);
-}
+
+
+
+
 
 
 .button {
@@ -158,22 +142,14 @@
 }
 
 
-.clients,
-.team {
+.clients {
   padding: 94px 0px;
 }
 
 
 
-.team-list > .list {
-  background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-container {
-  padding: 30px 32px;
-}
+
+
 
 .social-link-list {
   display: flex;
@@ -244,9 +220,6 @@
 
 
 
-.team-list > .list:not(:last-child) {
-  margin-right: 30px;
-}
 
 .filter .list:not(:last-child) {
   margin-right: 8px;
