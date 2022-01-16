@@ -4,7 +4,7 @@
 
 
 .filter,
-.auth-nav-list,
+
 
 .benefits-list,
 .all-works,
@@ -38,77 +38,38 @@
 }
 
 
-.auth-nav-list .list:not(:last-child) {
-  margin-right: 50px;
-}
-.auth-nav-list {
-  margin-left: auto;
-}
 
 
-.auth-nav,
+
+
 .auth {
   text-decoration: none;
   display: block;
 }
 
-.auth-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.auth-nav-letter {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: var(--text-color);
-}
-.auth-nav-tel {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: var(--text-color);
-}
-.auth-nav {
-  display: flex;
-  align-items: center;
-}
 
 
 
 
-.auth-nav,
+
+
+
+
+
 .auth {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth-nav-letter,
-.auth-nav-tel {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.auth-nav:hover,
-.auth-nav:focus,
+
+
 .auth:focus,
 .auth:hover {
   color: var(--accent-color);
   outline: 1px solid var(--accent-color);
 }
 
-.auth-nav:hover .auth-nav-letter,
-.auth-nav:focus .auth-nav-letter,
-.auth-nav:hover .auth-nav-tel,
-.auth-nav:focus .auth-nav-tel {
-  fill: var(--accent-color);
-}
 
-
-
-.header .logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 
 
 .header {
@@ -125,9 +86,6 @@
 }
 
 
-.auth-nav {
-  color: var(--text-color);
-}
 
 .auth {
   color: var(--auth-color);
